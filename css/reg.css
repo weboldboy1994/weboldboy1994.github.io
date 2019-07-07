@@ -1,0 +1,169 @@
+
+
+.reg-weiyi{
+      margin-left: 180px;
+}
+
+
+.logo-f{
+      height: 80px;
+      background-color: #eaeaea;  
+}
+
+.reg-logo{
+      height: 80px;
+      width: 900px;
+      background-color: #eaeaea;  
+      margin: 0 auto;
+      text-align: center;
+}
+.reg-logo img{
+      height: 100%;
+}
+
+
+
+.reg-f{
+      background-color: #eaeaea;  
+     
+}
+
+.reg-f1{
+      width: 900px;
+      /* background-color: rgba(0, 0, 0, 0.2); */
+      margin: 0 auto;   
+      padding: 20px; 
+      background-color: #eaeaea;  
+}
+.reg-f1 h1{
+      font-weight: 400;
+      font-size: 28px;
+      margin-bottom: 10px;
+}
+
+.reg-d1 p{
+      font-size: 14px;
+      color: #111;  
+      font-weight: 700;
+      margin: 0;
+      padding-left: 2px;
+      padding-bottom: 2px;
+}
+.reg-d1 input{
+      width: 312px;
+      height: 31px;
+      border: 1px solid #a6a6a6;
+      border-top-color: #949494;
+      border-radius: 3px;
+      box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+      outline: 0;
+      font-size: 12px;
+      padding-left: 6px;
+}
+.reg-d1 input:focus{
+      border-color: #e77600;
+      box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+
+
+.reg-d2{
+      margin-top: 15px;
+}
+.reg-d2 p{
+      font-size: 14px;
+      color: #111;
+      font-weight: 700;
+      margin: 0;
+      padding-left: 2px;
+      padding-bottom: 2px;
+}
+.reg-d2 input{
+      width: 312px;
+      height: 31px;
+      border: 1px solid #a6a6a6;
+      border-top-color: #949494;
+      border-radius: 3px;
+      box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+      outline: 0;
+      font-size: 12px;
+      padding-left: 6px;
+}
+
+.reg-d2 input:focus{
+      border-color: #e77600;
+      box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+.reg-btn{
+      width: 310px;
+      height: 30px;
+      background-color: redz;
+      margin-top: 25px;
+      
+}
+
+.reg-btn .btn{
+      width: 310px;
+      height: 30px;
+      line-height: 30px;  
+      padding: 0;
+      
+}
+
+
+.reg-wx{
+      width: 310px;
+      height: 30px;
+      background-color: redz;
+      margin: 15px 0;
+}
+
+.reg-wx .btn{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 0;
+}
+
+.reg-wx .btn i{
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      background: url("../images/QQ-weixin.png") no-repeat;
+      background-position: -19px 0;
+     
+}
+
+.reg-qq{
+      width: 310px;
+      height: 30px;
+      background-color: redz;
+}
+
+.reg-qq .btn{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 0;
+}
+
+.reg-qq .btn i{
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      background: url("../images/QQ-weixin.png") no-repeat;
+      background-position: 0 0;
+}
+
+.red-bt{
+      margin-top: 30px;
+}
+.red-bt span{
+      font-size: 13px;
+      color: #111;
+}
+.red-bt a{
+      text-decoration:none;
+      font-size: 13px;
+}

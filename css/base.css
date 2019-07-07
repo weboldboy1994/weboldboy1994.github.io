@@ -1,0 +1,533 @@
+/*保存公用的css 样式*/
+body{
+      background-color: #f0f3ef;
+}
+*{margin: 0 ;padding: 0;}
+
+.fl{
+      float: left;
+}
+
+
+.fr{
+      float: right;
+}
+
+.w{/*版面版心*/
+      width: 1190px;
+      margin: auto;  /*垂直居中*/
+}
+
+
+
+li{
+      list-style:none;
+}
+
+ul{
+      margin: 0;
+      padding: 0;
+}
+
+input , button{
+      padding: 0;
+      margin: 0;
+      border: 0;
+}
+
+a{
+      text-decoration: none!important;
+}
+
+
+
+.style-red{
+      color: #5E17B5 !important;
+}
+
+
+
+@font-face {   /*字体图片的引入*/
+      font-family: 'icomoon';
+      src:  url('../fonts/icomoon.eot?7s5z1w');
+      src:  url('../fonts/icomoon.eot?7s5z1w#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7s5z1w') format('truetype'),
+        url('../fonts/icomoon.woff?7s5z1w') format('woff'),
+        url('../fonts/icomoon.svg?7s5z1w#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+
+
+
+/* 头部开始 */
+.header{
+      background-color: #fff;
+}
+
+.J_event{
+      height: 80px;
+      background-color: rgb(65, 18, 177);
+}
+
+
+.J_event a{
+      display: block;
+      height: 80px;
+      background: url(../images/header.jpg);
+      position: relative;
+}
+
+.J_event i{
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 0;
+      top: 5px;
+      font-family: 'icomoon';
+      font-style: normal;
+      font-weight: lighter;
+      color: #fff;
+      background: #5E17B5;
+}
+/* 头部结束 */
+
+
+
+/* 快速导航开始 */
+.shortcut{
+      height: 30px;
+      background-color: #e3e4e5;
+      border-bottom: 1px solid #dddddd;
+      color: #9d9d9d;
+      font-size: 12px;
+      line-height: 30px;
+}
+
+
+.shortcut a{
+      color: #9d9d9d;
+      font-size: 12px;
+      text-decoration: none; /*去下划线*/
+}
+
+.shortcut a:hover{
+      color: #5E17B5;
+}
+
+
+.shortcut .fr li{
+      float: left;
+}
+
+.pos{
+      font-family:'icomoon';
+      font-style: normal;   /*字体变正*/
+      font-size: 14px;
+      color: #f10215;
+}
+
+.shortcut .fl li{
+      margin-left: 200px;
+      height: 30px;
+}
+
+
+.spacer{  /* | */
+      width: 1px;
+      height: 10px;
+      background-color: #9d9d9d;
+      margin:10px 10px 0;
+}
+
+.dropdown{
+      padding-right: 15px;
+      position: relative;
+}
+
+.dropdown i{
+      font-family: 'icomoon';
+      font-style: normal;
+      font-size: 16px;
+      position:absolute;
+      top:-2px ;
+      right: -3px;
+
+}
+
+.fathererweima{
+      position: relative;
+      z-index: 99;
+}
+
+.fathererweima:hover .erweima{
+      display: block;
+}
+
+.erweima{
+      width: 65px;
+      height: 65px;
+      border: 1px solid #cccccc;
+      padding: 3px;
+      position: absolute;
+      top: 30px;
+      right: -10px;  
+      display: none;
+}
+.erweima img{
+      width: 100%;
+      height: 100%;
+     
+}
+/* 快速导航结束 */
+
+
+
+
+/* 头部开始 */
+.header{
+      height: 140px;
+}
+.inner{
+      height: 140px;
+      position: relative;
+    
+}
+
+.logo{
+      height: 170px;
+      width: 190px;
+      position: absolute;
+      top: -31px;
+      left: 0;
+      box-shadow: 0 -12px  10px rgba(0, 0, 0, 0.2)  /*水平阴影  盒子阴影 模糊距离*/
+  
+}
+.logo h1{
+      margin: 0;
+}
+.logo h1 a{
+      display: block;
+      height: 170px;
+      width: 190px;
+      background: url(../images/logo.jpg) no-repeat center;
+      text-indent: -888em;   /*首行缩进*/
+      overflow: hidden;   /*影藏溢出文字*/
+}
+
+
+/* 搜索开始 */
+.search{
+      width: 550px;
+      height: 35px;
+      position: absolute;
+      top:25px;
+      left: 320px;
+}
+.search input{
+      width: 491px;
+      height: 33px;
+      border: 1px solid #666;
+      padding:0 0 0 7px;/*上右下左*/
+      /* outline: none; 取消蓝色边框 */
+      float: left;
+      font-size: 12px;
+}
+
+.search button{
+      width: 50px;
+      height: 33px;
+      background-color: #5E17BF;
+      float: left;
+      cursor: pointer;
+}
+
+.search button i{
+      font-family: 'icomoon';
+      font-style: normal;
+      font-size:19px; 
+      color: #fff;
+}
+
+.search em{
+   position: absolute;
+   top: 10px;
+   right: 65px;
+   width: 19px;
+   height: 15px;
+   background: url(../images/sprite-photo-search.png) no-repeat;
+   cursor: pointer;
+}
+
+.search em:hover{
+     background-position: -30px 0;
+   }
+/* 搜索结束 */
+
+
+
+/* 热点关键词开始 */
+.hotwords{
+      position:absolute;
+      top:68px;
+      left:320px;
+}
+
+.hotwords a{
+      color:#999;
+      font-size: 12px;
+      margin: 0 10px 0  0;
+}
+
+.hotwords a:hover{
+      color:#5E17B5;
+}
+/* 热点关键词结束 */
+
+
+/* 购物车 */
+.shoppingCar{
+      width: 188px;
+      height: 33px;
+      border: 1px solid #ccc;
+      position: absolute;
+      top: 25px;
+      right:100px ;
+      text-align: center;
+      line-height: 33px;
+}
+
+.shoppingCar a{
+      font-size: 12px;
+      color: #a200c7;
+      
+}
+
+.shoppingCar i{
+      font-family: 'icomoon';
+      font-style: normal;
+      color: #a200c7;
+      margin-right: 6px;
+      cursor: pointer;
+}
+
+.shoppingCar b{
+     position: absolute;
+     top: 5px;
+     left: 140px;
+     background-color: #f10215;
+     border-radius: 7px;
+     color: #fff;
+     line-height: 15px;
+     height: 15px;
+     font-size: 12px;
+     padding: 0 4px; 
+}
+/* 购物车结束 */
+
+/* 家电618小图片 */
+.jiadian {
+      position: absolute;
+      bottom: 10px;
+      right: 0;
+
+}
+/* 618结束 */
+
+
+/* nav导航栏信息开始 */
+.navitems{
+      width: 790px;
+      height: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      position: absolute;
+      bottom: 5px;
+      left: 200px;
+      line-height: 30px;    
+}
+.navitems a{
+      font-size: 14px;
+      color: #333;
+}
+
+.navitems a:hover{
+      color: #5E17B5;
+}
+
+
+
+/* nva导航栏信息结束 */
+/* 头部结束 */
+
+
+
+
+/* 底部开始 */
+/* footer 开始 */
+.footer{
+      height: 560px;
+      background-color: #eaeaea;
+}
+
+.footer-service{
+      height: 100px;
+      border-bottom: 2px solid #dedede
+}
+
+.footer-inner{
+      height: 100px;
+    
+      ;
+}
+
+.footer-inner ul{
+     display: flex;
+     justify-content: space-evenly;
+     line-height: 100px;
+     position: relative;
+}
+
+.footer-inner ul li{
+      display: flex;
+      line-height: 100px;   
+      position: relative; 
+      font-size: 18px;
+      font-weight: 700;
+ }
+ 
+.footer-inner ul h5{
+     width: 36px;
+     height: 43px;
+     background: url(../images/ico.png) no-repeat;
+     position: absolute;
+     top:29px;
+     left: -50px;
+ }
+
+ .kuai{
+       background-position: 0 -42px !important;
+ }
+
+ .hao{
+      background-position: 0 -85px !important;
+}
+
+.sheng{
+      background-position: 0 -128px !important;
+}
+/* footer结束 */
+
+
+/* 帮助模块 */
+.help{
+      display: flex;
+      justify-content: space-evenly;
+      height: 220px;
+      padding-top: 20px;
+}
+
+.help dt{
+      font-size: 14px;
+      font-weight: 700;
+      color: #666;
+      height: 30px;
+}
+.help dd {
+      height: 20px;
+}
+.help dd a{
+      font-size: 12px;
+      color: #727272;
+}
+
+.help dd a:hover{
+      color: #5E17B5;
+}
+/* 帮助结束 */
+
+
+
+/* 网络许可 */
+.footer-wangluo{
+      height: 260px;
+      border-top: 2px solid #dedede;
+}
+.footer-w{
+      height: 240px;
+      padding-top: 20px;
+      
+}
+
+.footer-w ul{
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+      color: #666;
+}
+.footer-w ul li a{
+     color: #666;
+}
+
+.footer-w ul li a:hover{
+      color: #5E17B5;
+ }
+
+ .footer-w2{
+       height: 108px;
+       padding: 15px 0;
+ }
+
+ .footer-w2 ul{
+     display:flex;
+     justify-content: center;
+     height: 20px;
+     
+}
+.footer-w2 ul li{
+     padding: 0 4px;
+    
+ }
+
+
+ .footer-w3 {
+    text-align: center;
+}
+
+ .footer-w3 a{
+       width: 103px;
+       height: 32px;
+       display: inline-block;
+       background-image: url(../images/sprite.footer.png);
+       background-position: -205px 0px;
+ }
+
+ 
+ .footer-w3 .t1{
+      background-position: -205px -38px !important;
+}
+
+.footer-w3 .t2{
+      background-position: -205px  -76px!important;
+}
+
+.footer-w3 .t3{
+      background-position: -205px -112px !important;
+}
+
+.footer-w3 .t4{
+      background-position: -205px -148px !important;
+}
+
+
+
+/* 网路许可结束 */
+
+
+
+
+
+
+/* 底部结束 */

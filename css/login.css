@@ -1,0 +1,196 @@
+.login-banner{
+      height: 100px;
+      
+}
+.login-inner{
+      width: 900px;
+      height: 100px;
+     
+      margin: 0 auto;
+}
+.login-inner img{
+      height: 100%;
+}
+
+.login-inner img+img{
+      height: 50%;
+}
+
+
+
+
+
+
+.reg-weiyi{
+      margin-left: 180px;
+}
+
+.reg-f{
+      background:#ffba00;
+}
+
+
+.reg-f1{
+      width: 900px;
+      /* background-color: rgba(0, 0, 0, 0.1); */
+      margin: 0 auto;   
+      padding: 20px; 
+}
+.reg-f1 h1{
+      font-weight: 400;
+      font-size: 28px;
+      margin-bottom: 10px;
+}
+
+.reg-d1 p{
+      font-size: 14px;
+      color: #111;  
+      font-weight: 700;
+      margin: 0;
+      padding-left: 2px;
+      padding-bottom: 2px;
+}
+.reg-d1 input{
+      width: 312px;
+      height: 31px;
+      border: 1px solid #a6a6a6;
+      border-top-color: #949494;
+      border-radius: 3px;
+      box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+      outline: 0;
+      font-size: 12px;
+      padding-left: 6px;
+}
+.reg-d1 input:focus{
+      border-color: #e77600;
+      box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+
+
+.reg-d2{
+      margin-top: 15px;
+}
+.reg-d2 p{
+      font-size: 14px;
+      color: #111;
+      font-weight: 700;
+      margin: 0;
+      padding-left: 2px;
+      padding-bottom: 2px;
+}
+.reg-d2 input{
+      width: 312px;
+      height: 31px;
+      border: 1px solid #a6a6a6;
+      border-top-color: #949494;
+      border-radius: 3px;
+      box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+      outline: 0;
+      font-size: 12px;
+      padding-left: 6px;
+}
+
+.reg-d2 input:focus{
+      border-color: #e77600;
+      box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+.reg-btn{
+      width: 310px;
+      height: 30px;
+      background-color: redz;
+      margin-top: 25px;
+      
+}
+
+.reg-btn .btn{
+      width: 310px;
+      height: 30px;
+      line-height: 30px;  
+      padding: 0;
+      
+}
+
+
+.reg-wx{
+      width: 310px;
+      height: 30px;
+      background-color: redz;
+      margin: 15px 0;
+}
+
+.reg-wx .btn{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 0;
+}
+
+.reg-wx .btn i{
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      background: url("../images/QQ-weixin.png") no-repeat;
+      background-position: -19px 0;
+     
+}
+
+.reg-qq{
+      width: 310px;
+      height: 30px;
+      background-color: redz;
+}
+
+.reg-qq .btn{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 0;
+}
+
+.reg-qq .btn i{
+      display: inline-block;
+      width: 19px;
+      height: 19px;
+      background: url("../images/QQ-weixin.png") no-repeat;
+      background-position: 0 0;
+}
+
+
+.login-footer{
+      height: 80px;
+      
+}
+
+.w1{
+      width: 900px;
+      height: 80px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 10px 0;
+}
+
+.w1 ul{
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+      margin: 0;
+     
+}
+.w1 ul li a{
+      color: #666;
+      text-decoration: none;
+}
+.w1 ul li {
+      color: #666;
+
+}
+
+.w1 span{
+    color: #666;
+    font-size: 12px;
+   
+}
+
+

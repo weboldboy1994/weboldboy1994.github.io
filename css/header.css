@@ -1,0 +1,109 @@
+/* 解决外边距溢出 */
+.clexflex:before {
+      content: "";
+      display: table;
+}
+
+
+.tob-bar{
+      height: 50px;
+     
+      padding-top: 30px;
+     
+}
+
+.tob-bar-innder{
+      width: 1000px;
+      height: 43px;
+      margin: 0 auto;
+    
+      display: flex;
+      justify-content: space-around;
+      padding-top: 7px;
+}
+
+.tob-logo{
+      width: 168px;
+      height: 41px;
+      margin-right: 100px;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.tob-logo img{
+      height: 100%;
+}
+.tob-logo p{
+      height: 100%;
+      line-height: 41px;
+}
+
+
+
+
+.top-search{
+      width: 380px;
+      height: 31px;
+      font-size: 12px;
+      display: flex;
+      padding-top:5px;
+      margin-right: 100px;
+}
+
+.top-search input{
+      width: 91%;
+      height: 80%;
+      border: 1px solid #ccc;
+      padding-left:6px;
+      font-size: 11px;
+}
+
+
+.top-search a{
+      display: block;
+      width: 9%;
+      height: 80%;
+      background-color: #28a745;
+     
+}
+.top-search a i{
+      font-family: "icomoon";
+      font-style: normal;
+      display: block;
+      width: 34px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: #fff;
+}
+.top-search a i:hover{
+      color: #f21502;
+}
+.top-f{
+      width: 218px;
+      height: 37px;
+      
+      display: flex;
+      justify-content: space-around;
+      line-height: 37px;
+      font-size: 12px;
+      
+}
+.top-f a {
+      display: block;
+      color: #666;
+      font-size: 12px;
+}
+
+
+.top-f a i:hover{
+      color: #f21502
+}
+.top-f a i{
+      display: block;
+      font-family: "icomoon";
+      font-style:normal;
+      color: #666;
+}
+
+
